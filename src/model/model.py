@@ -1,5 +1,5 @@
 
-import init_paths
+from .init_paths import *
 import os
 import torch
 from src.utils.fourier_feature_transform import FourierFeatureTransform
